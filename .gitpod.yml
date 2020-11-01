@@ -1,0 +1,10 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: 'dotnet build devspace2.sln'
+    command: 'dotnet run devspace2.csproj'
+
+vscode:
+  extensions:
+    - ms-vscode.csharp@1.21.12:kw8SkO8+aVTSFug281WfQQ==
